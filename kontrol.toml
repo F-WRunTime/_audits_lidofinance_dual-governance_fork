@@ -38,20 +38,20 @@ auto_abstract              = true
 run-constructor            = false
 match-test                 = [
         "RageQuitTest.testRageQuitDuration",
-        "VetoCooldownTest.testVetoCooldownDuration",
-        "VetoSignallingTest.testTransitionNormalToVetoSignalling",
-        "VetoSignallingTest.testVetoSignallingInvariantsHoldInitially",
-        "VetoSignallingTest.testVetoSignallingInvariantsArePreserved",
-        "VetoSignallingTest.testDeactivationNotCancelled",
-        "EscrowAccountingTest.testRageQuitSupport",
-        "EscrowAccountingTest.testEscrowInvariantsHoldInitially",
-        "EscrowLockUnlockTest.testLockStEth",
+        #"VetoCooldownTest.testVetoCooldownDuration",
+        #"VetoSignallingTest.testTransitionNormalToVetoSignalling",
+        #"VetoSignallingTest.testVetoSignallingInvariantsHoldInitially",
+        #"VetoSignallingTest.testVetoSignallingInvariantsArePreserved",
+        #"VetoSignallingTest.testDeactivationNotCancelled",
+        #"EscrowAccountingTest.testRageQuitSupport",
+        #"EscrowAccountingTest.testEscrowInvariantsHoldInitially",
+        #"EscrowLockUnlockTest.testLockStEth",
         #"EscrowAccountingTest.testUnlockStEth",
         #"EscrowOperationsTest.testCannotUnlockBeforeMinLockTime",
         #"EscrowOperationsTest.testCannotLockUnlockInRageQuitEscrowState",
         #"EscrowOperationsTest.testCannotWithdrawBeforeEthClaimTimelockElapsed",
-        "ProposalOperationsTest.testOnlyAdminProposersCanCancelProposals",
-        "ProposalOperationsTest.testCannotProposeInInvalidState",
+        #"ProposalOperationsTest.testOnlyAdminProposersCanCancelProposals",
+        #"ProposalOperationsTest.testCannotProposeInInvalidState",
         #"ActivateNextStateTest.testEscrowStateTransition"
     ]
 # bug-report               = disabled by default
